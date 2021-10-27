@@ -1,0 +1,26 @@
+.StoredText {
+    background-color: white;
+    padding: .7rem;
+    border-left: 3px solid green;
+    display: grid;
+    gap: .5rem;
+    animation: slideDown .3s;
+}
+
+.Heading {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Body {
+    /* background-color: green; */
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
